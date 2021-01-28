@@ -1,0 +1,5 @@
+.idea/
+*.iml
+*/target/
+backend/src/main/resources/static/
+backend/src/main/resources/templates/

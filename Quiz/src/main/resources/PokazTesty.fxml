@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.PokazTestyController">
+   <children>
+       <TableView fx:id="TABELA_ID" prefHeight="400.0" prefWidth="800.0">
+        <columns>
+            <TableColumn fx:id="Name_COLUMN" minWidth="100.0" prefWidth="100.0" text="Nazwa testu"/>
+            <TableColumn fx:id="OPIS_COLUMN" minWidth="100.0" prefWidth="100.0" text="Opis testu"/>
+            <TableColumn fx:id="KATEGORIA_COLUMN" editable="false" minWidth="100.0" prefWidth="100.0" text="Kategoria" />
+            <TableColumn fx:id="ILOŚĆPYTAŃ_COLUMKN" minWidth="100.0" prefWidth="100.0" text="Ilosć pytań"/>
+            <TableColumn fx:id="NOTSHOWANWSER_COLUMN" minWidth="100.0" prefWidth="100.0" text="Nie pokazuj odpowiedzi" />
+            <TableColumn fx:id="RANDOM_QUESTION_COLUMN" minWidth="100.0" prefWidth="100.0" text="Losowe pytania"/>
+            <TableColumn fx:id="RANDOM_ANWSERS_COLUMN" minWidth="100.0" prefWidth="100.0" text="Losowe odpowiedzi"/>
+            <TableColumn fx:id="TIME_OF_QUESTION_COLUMN" minWidth="-1.0" prefWidth="0.0" resizable="false" text="Czas na pytanie" />
+            <TableColumn fx:id="PASSWORDID_COLUMN" minWidth="100.0" prefWidth="100.0" text="Hasło" />
+        </columns>
+         <contextMenu>
+            <ContextMenu>
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#testDelete" text="Usuń Test" />
+              </items>
+            </ContextMenu>
+         </contextMenu>
+      </TableView>
+   </children>
+</VBox>
