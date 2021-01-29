@@ -6,3 +6,11 @@ Aplikacja stanowi funkcjonalne narzędzie, umożliwiające tworzenie i modyfikac
 testów, ich przechowywanie w lokalnej bazie danych (H2) lub na zewnętrznym serwerze,
 a także weryfikację poprawności ich rozwiązania w zautomatyzowany i uproszczony
 sposób. 
+
+Wykorzystane Frameworki:
+JavaFx,
+Spring,
+Hibernate,
+Maven,
+
+Wykorzystana baza danych - H2
